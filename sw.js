@@ -1,6 +1,6 @@
-// Beer Log service worker — caches the app shell so it opens offline.
+// Palate service worker — caches the app shell so it opens offline.
 // Bump CACHE when you change app files to force an update.
-const CACHE = "palate-v1";
+const CACHE = "palate-v7";
 const ASSETS = [
   "./",
   "./index.html",
