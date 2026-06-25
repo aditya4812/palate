@@ -1,9 +1,10 @@
 // Palate service worker — caches the app shell so it opens offline.
 // Bump CACHE when you change app files to force an update.
-const CACHE = "palate-v11";
+const CACHE = "palate-v13";
 const ASSETS = [
   "./",
   "./index.html",
+  "./catalog.js",
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
